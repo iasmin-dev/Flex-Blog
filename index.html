@@ -32,14 +32,14 @@
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#preço">Preço</a></li>
+                    <li><a href="#preco">Preço</a></li>
                     <li><a href="#qualidade">Qualidade</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1>Novos valores e<br>Propriedades de CSS</h1>
+    <h1 class="introducao">Novos valores e<br>Propriedades de CSS</h1>
 
     <section class="sobre" id="sobre">
         <div class="sobre-info">
@@ -62,9 +62,11 @@
                 <img src="img/produtos1.jpg" alt="Produtos 1">
             </div>
             <div class="produtos-item pink">
+                <h2>Pink</h2>
                 <img src="img/produtos2.jpg" alt="Produtos 2">
             </div>
-            <div class="produto-item blue">
+            <div class="produtos-item blue">
+                <h2>Blue</h2>
                 <img src="img/produtos3.jpg" alt="Produtos 3">
             </div>
         </div>
@@ -98,7 +100,7 @@
 
         <div class="preco-item">
             <h2>Ouro</h2>
-            <span><sup>R$</sup>39</span>
+            <span><sup>R$</sup>79</span>
             <ul>
                 <li>Planos Ilimitados</li>
                 <li>Acesso Restrito</li>
@@ -143,15 +145,17 @@
         </div>
     </section>
 
-    <section class="newsletter">
-        <div class="newsletter-info">
-            <h1>Newsletter</h1>
-            <p>assine e fique por dentro das novidades</p>
+    <section class="newsletter-bg">
+        <div class="newsletter">
+            <div class="newsletter-info">
+                <h1>Newsletter</h1>
+                <p>assine e fique por dentro das novidades</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="text" placeholder="Seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>       
         </div>
-        <form class="newsletter-form">
-            <input type="text" placeholder="Seu e-mail">
-            <button type="submit">Assinar</button>
-        </form>       
     </section>
 
     <footer class="footer">
