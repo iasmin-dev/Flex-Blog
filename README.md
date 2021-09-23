@@ -2,4 +2,4 @@
 
 The original idea of the project is not mine.
 
-This project is from a Flex-Box course.
+This project is from Origamid Flex-Box course.
